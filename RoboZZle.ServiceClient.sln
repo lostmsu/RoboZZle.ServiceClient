@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoboZZle.ServiceClient", "src\RoboZZle.ServiceClient.csproj", "{7A98B3B0-EDCC-4023-819B-2D371BD553A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{CBA70496-0D51-4F9C-B544-1C843E1D6ABE}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\master.yml = .github\workflows\master.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo", "Repo", "{949E196D-54F6-4201-8C4C-A1E6B8AAE5F0}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A98B3B0-EDCC-4023-819B-2D371BD553A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A98B3B0-EDCC-4023-819B-2D371BD553A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A98B3B0-EDCC-4023-819B-2D371BD553A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A98B3B0-EDCC-4023-819B-2D371BD553A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
